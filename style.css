@@ -1,0 +1,197 @@
+/* Effects Everything */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+span.green {
+    color: green;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+body {
+    background-color: black;
+}
+
+.navigation {
+    display: flex;
+    justify-content: right;
+}
+
+.nav-item {
+    font-family: helvetica;
+    font-size: 30px;
+    margin: 30px;
+    font-weight: 900;
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item > a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+/* Frontpage.html */
+
+.introduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.introduction-photo {
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.introduction-photo > img {
+    height: 350px;
+    width: 250px;
+    border-radius: 15%;
+}
+
+.introduction-name {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.introduction-paragraph {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.introduction-name, .introduction-paragraph {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.information-item {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-top: 15px;
+}
+
+.information-item > a {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.information-item > a:hover {
+    padding: 20px; 
+}
+
+/* services.html */
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.services-title {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.service-header {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: helvetica;
+}
+
+.services-paragraph {
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.services-text {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.customer-support-title {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.customer-support-header {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: helvetica;
+}
+
+.customer-support-paragraph {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.customer-support-text {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+/* Skills.html */
+
+.skills {
+    display: grid;
+    grid-row-start: 1fr 1fr 1fr 1fr;
+    grid-column-start: 1fr 1fr 1fr 1fr;
+}
+
+.skills-title {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.skills-header {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: helvetica;
+}
+
+.skills-paragraph {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.skills-text {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
